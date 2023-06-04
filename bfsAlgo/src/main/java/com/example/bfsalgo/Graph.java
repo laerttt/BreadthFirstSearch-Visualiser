@@ -19,7 +19,7 @@ class Graph {
             adj[v].add(v - 1);
             for (Node node : Paint.grid.getChildren()) {
                 if(((Cell)node).index == v){
-                    System.out.println("setText");
+//                    System.out.println("setText");
                     ((Cell) node).label.setText("—  "+ ((Cell) node).label.getText());
                     break;
                 }

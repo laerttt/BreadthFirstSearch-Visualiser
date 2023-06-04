@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BFS_Algorithm_Visualization_Data_Structures_CEN-206.iml" filepath="$PROJECT_DIR$/.idea/BFS_Algorithm_Visualization_Data_Structures_CEN-206.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bfsAlgo/bfsAlgo.iml" filepath="$PROJECT_DIR$/bfsAlgo/bfsAlgo.iml" />
+    </modules>
+  </component>
+</project>
