@@ -24,4 +24,4 @@ through a 10x10 grid-like graph.
 
 ## How to run
 * Open your java IDE of choice
-* Run Main.java
+* Run Main.java (bfsAlgo/src/main/java/com/example/bfsalgo)
