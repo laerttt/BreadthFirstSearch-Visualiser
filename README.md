@@ -1,27 +1,26 @@
-# Visualization of BFS algorithm
-The breadth-first search (BFS) algorithm is used
-to search a tree or graph data structure for a node
-that meets a set of criteria. It starts at the tree’s 
-root or graph and searches/visits all nodes at the current 
-depth level before moving on to the nodes at the next depth 
-level. Breadth-first search can be used to solve many problems
-in graph theory.
+# BFS Algorithm Visualization
 
-From(https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+A visualization tool for the Breadth-First Search (BFS) algorithm, which is commonly used to traverse or search tree and graph data structures. BFS explores nodes level by level, starting from the root (or any specified start node) and visiting all nodes at the current depth before moving to the next. This tool demonstrates BFS traversal in a 10x10 grid, allowing users to interactively explore its behavior.
 
 ## Explanation
-This application will help you visualize how the BFS algorithm traverses 
-through a 10x10 grid-like graph.
 
-### Button explenation
-* Add wall: adds a wall on the cell you click or drag upon several
-* Delete wall: deletes(reset to default) any cell you click or drag upon
-* Add Start: adds a starting point for the BFS Algorithm to start
-* BFS: starts the visualization
-* Show Edges: shows the default edges made when the grid is created
-* Reset: resets the grid to default
-* Randomize: makes random walls on the grid (click again to re-randomize)
+This application visualizes how the BFS algorithm traverses a grid-based graph, showing the order in which nodes are visited in real time.
 
-## How to run
-* Open your java IDE of choice
-* Run Main.java (bfsAlgo/src/main/java/com/example/bfsalgo)
+## Button Descriptions
+
+- **Add Wall**: Adds a wall to cells you click or drag over, creating obstacles for the BFS traversal.
+- **Delete Wall**: Removes walls by resetting cells to their default state.
+- **Add Start**: Sets a starting point for the BFS algorithm.
+- **BFS**: Begins the BFS traversal and displays the process.
+- **Show Edges**: Reveals the edges between nodes as they are defined in the grid layout.
+- **Reset**: Resets the entire grid to its default state.
+- **Randomize**: Randomly places walls throughout the grid. Click again to create a new random wall pattern.
+
+## How to Run
+
+1. Open your preferred Java IDE.
+2. Locate and run `Main.java` from the path `bfsAlgo/src/main/java/com/example/bfsalgo`.
+
+## Additional Information
+
+For more about the BFS algorithm, refer to [this article on GeeksforGeeks](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/).
